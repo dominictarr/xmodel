@@ -41,4 +41,4 @@ a.deepEqual(x.root,
   ['ONE', 2, 3, abc]
   )
 console.log(x)
- a.deepEqual(x.at('abc'), abc)
+ a.deepEqual(x.at('abc').toJSON(), abc)
