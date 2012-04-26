@@ -1,0 +1,24 @@
+{
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "name": "xmodel",
+  "description": "syncable Model class.",
+  "version": "0.0.0",
+  "homepage": "http://github.com/dominictarr/xmodel",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/xmodel.git"
+  },
+  "scripts": {
+    "test": "node test/all.js"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "xdiff": "~0.2.10"
+  },
+  "devDependencies": {
+    "snob": "0.4"
+  },
+  "optionalDependencies": {}
+}
